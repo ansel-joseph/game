@@ -1,0 +1,6 @@
+x64
+dependencies
+.vs
+*.dll
+game.*
+out.exe
