@@ -7,7 +7,7 @@ int main() {
     snakeHead.setFillColor(sf::Color::Red);
     snakeHead.setPosition({ 100.f, 100.f });
 
-    float speed = 5.f;
+    float speed = 3.f;
 
     while (window.isOpen()) {
         while (auto event = window.pollEvent()) {
@@ -29,7 +29,7 @@ int main() {
             snakeHead.move(sf::Vector2f{ 0.f, speed });
         }
 
-        
+        window.clear(sf::Color::Black);
         window.draw(snakeHead);
         window.display();
     }
