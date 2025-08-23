@@ -13,7 +13,7 @@
                 "-lsfml-window",
                 "-lsfml-system",
                 "-o",
-                ".\\game\\out.exe"
+                ".\\game\\build\\out.exe"
             ],
             "group": {
                 "kind": "build",
